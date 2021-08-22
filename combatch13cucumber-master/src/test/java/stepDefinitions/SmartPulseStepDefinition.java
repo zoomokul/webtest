@@ -2,8 +2,6 @@ package stepDefinitions;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.And;
-import org.openqa.selenium.By;
-import pages.AmazonPage;
 import pages.SmartPulsePage;
 import utilities.ConfigReader;
 import utilities.Driver;
