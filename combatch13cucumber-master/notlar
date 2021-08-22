@@ -1,0 +1,41 @@
+* maven projet oluştur
+*POM xml içine
+	selenium-java
+	webdrivermanager
+	cucumber-java
+	cucumber-junit eklenecek.(io dan)
+* src nin altındaki test altındaki javanın altına
+	pages
+	runners
+	stepDefinitions
+	utilities paketlerini oluştur
+* Utilies altında Driver ve ConfigReader dosyası oluştur.
+* Config reader içeriği
+	configuration.properties yolu önemli
+* Driver içeriği
+*configuration.properties proje üzerine sağ tıkla ve oluştur.Üzerine sağ tıkla
+yolu al path from content root
+
+* test klasörü altında resources klasörü oluştur. Java altında değil
+* resources altında features oluştur klasör
+
+* File setting plug in sec cucumber for java ara ve install yap ve ghurken ara
+ve install et
+*feaures altında new file, uzatısı feature olacak adı önemli değil
+*feature içini oluştur user story ile aynı olsub. Scenarida test case olsun
+*pages sayfası altında page sayfası oluştur. Constructor ve factory oluştur.
+
+*features run et.Siyah olan metodları al. given ile başlayan. ve stepDefinion altında
+java ckass oluştur ve içine kopyala ve metodun içindekileri sil
+
+*feature tekrar çalıştır pass gör testi ve sonra feature içine metodları yaz
+
+*Runner class oluşturalim,runners altında gerekli kopyalamaları yapalım
+
+*Background: her senaryodan önce calışmasını istediğimşz kısım
+
+* tag kapatırsan yani yoruma alırsan hepsini çalıştırır.
+
+* dry true ise çalıştırmadan eksik stepleri verir,
+eger false ise test case çalıştırmayı dener, eksik adım var ise
+onu rapor eder.
